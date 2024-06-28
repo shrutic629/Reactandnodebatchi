@@ -9,9 +9,10 @@
     <script>
         // use the concept of hoisting and call a factorial function without declaring it and then define after calling
 
-        factorial(num,fact);
+        console.log(factorial(num,fact));
 
-        var factorial = (num,fact)=>{
+        // var factorial = (num,fact)=>{
+        function factorial(num,fact){
             for(var i=1;i<=num; i++)
             {
                 fact = fact*i;
