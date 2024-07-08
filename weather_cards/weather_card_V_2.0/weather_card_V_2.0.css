@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.body{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner_box{
+    width: 85%;
+    height: 110vh;
+    /* background-image: url("https://static.vecteezy.com/system/resources/thumbnails/006/861/161/small/light-blue-background-gradient-wall-design-vector.jpg"); */
+    background-image: url("https://i0.wp.com/wallpapercave.com/wp/wp12353265.jpg?ssl=1");
+    /* background-image: url("https://garden.spoonflower.com/c/12490244/p/f/m/fNzVbIbtIPz2aHE44ztXHaU2pEw6HFKhBUibyB0oYNpCnrCOo1s9HWc/Nova%20~%20Peacoquette%20Palette%20Solid.jpg"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather_condition_main_box{
+    width: 85%;
+    height: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.weather_con_inner_boxes1{
+    width: 30%;
+    border-radius: 20px;
+}
+.weather_con_inner_boxes1{
+    width: 30%;
+    border-radius: 20px;
+    background-image: url("https://img.freepik.com/premium-photo/night-sky-with-mountains-trees-night_893012-239149.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.weather_con_inner_boxes2{
+    width: 30%;
+    border-radius: 20px;
+    background-image: url("https://thumbs.dreamstime.com/b/summer-landscape-dark-trees-silhouettes-houses-skyline-storm-modern-cartoon-illustration-night-rain-lightning-316729053.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.weather_con_inner_boxes3{
+    width: 30%;
+    border-radius: 20px;
+    background-image: url("https://w0.peakpx.com/wallpaper/88/499/HD-wallpaper-winter-night-night-winter.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.description_box{
+    color: white;
+    margin: 0px 10%;
+    margin-top: 20%;
+    display: flex;
+}
+.des_box_L{
+    width: 60%;
+}
+.des_box_R{
+    width: 40%;
+}
+.des_box_L h3 span{
+    font-weight: 100;
+    font-size: 0.95rem;
+}
+.des_box_L h3{
+    font-weight: 500;
+}
+.des_box_L h1{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+}
+.des_box_R i{
+    font-size: 2.2rem;
+    margin-left: 35%;
+}
+
+

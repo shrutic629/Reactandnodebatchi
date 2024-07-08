@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.body{
+    width: 100%;
+    border: 1px solid blue;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner_box{
+    width: 75%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237, 235, 235);
+}
+.second_inner_box{
+    padding: 30px;
+    width: 85%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://xmple.com/wallpaper/blue-gradient-white-linear-2000x3000-c2-87cefa-ffffff-a-105-f-14.svg");
+}
