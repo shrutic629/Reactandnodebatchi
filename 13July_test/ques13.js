@@ -6,8 +6,15 @@ const list = async()=>{
         const response = await fetch("https://jsonplaceholder.typicode.com/users");
         const data = await response.json();
         data.map((singledata)=>{
-           const {street,suite,city,zipcode,geo{lat,lng}} = singledata;
-           return street,suite,city,zipcode,geo{lat,lng}
+           const {street,suite,city,zipcode,geo} = singledata;
+           const {lat,lng} = geo;
+           console.log(street); 
+           console.log(suite);
+           console.log(city);
+           console.log(zipcode);
+           console.log(geo);
+           console.log(lat);
+           console.log(lng);
         })
         
     }
