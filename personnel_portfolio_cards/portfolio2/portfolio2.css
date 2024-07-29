@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer_box{
+    width: 70%;
+    /* border: 1px solid red; */
+    padding: 0px 50px;
+    padding-top: 50px;
+    background-image: url("https://st4.depositphotos.com/12985656/21212/i/450/depositphotos_212121578-stock-illustration-full-frame-blank-blue-background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.inner_box{
+    /* border: 1px solid black; */
+    padding: 0px 10px;
+    padding-top: 10px;
+    background-color: white;
+    height: 100vh;
+}
+.inner_box_top{
+    height: 80%;
+    border: 1px solid rgb(249, 239, 239);
+    background-color: rgb(248, 244, 244);
+    display: flex;
+    flex-direction: column;
+}
+.inner_box_bot{
+    height: 20%;
+    border: 1px solid blue; 
+}
+.heading_box{
+    border: 1px solid green;
+    /* padding: 3.5%; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+}
+.harry{
+    width: 18%;
+    /* border: 1px solid black; */
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    padding-top: 10px;
+}
+.options{
+    width: 40%;
+    /* border: 1px solid black; */
+    padding-top: 15px;
+    /* padding: 30px; */
+}
+.contact_me{
+    width: 12%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 30px; */
+}
+.dot{
+    height: 5px;
+    width: 5px;
+    background-color: red;
+    display: inline-block;
+    border-radius: 50%;
+}
+.options ul{
+    display: flex;
+    justify-content: space-between;
+}
+.options ul li{
+    list-style: none;
+    font-size: 0.55rem;
+}
+.contact_me button{
+    border: 1px solid red;
+    background-color: white;
+    width: 80px;
+    padding: 8px 0px;
+    font-weight: 500;
+}
+.main_box{
+    border: 1px solid blue;
+    /* padding: 50px; */
+    width: 84%;
+    margin-left: 7%;
+    margin-top: 4%;
+    display: flex;
+}
+.main_box_L{
+    border: 1px solid red;
+    /* padding: 50px; */
+    width: 50%;
+    height: 60vh;
+    
+}
+.main_box_R{
+    border: 1px solid green;
+    padding: 50px;
+    width: 50%;
+    /* background-image: url("https://media.istockphoto.com/id/1022259700/photo/horizontal-photo-of-young-positive-european-man-in-casual-beige-t-shirt-isolated-on-pink.jpg?s=612x612&w=0&k=20&c=CjSUDOaPcjEzx6JYwDUeGitURD8FDwcSHEWz1Wh7MGo="); */
+    /* background-image: url("https://media.istockphoto.com/id/1312386384/photo/confident-guy-pointing-at-himself.jpg?s=612x612&w=0&k=20&c=A2orP3a4KQYSMW1AlWQoMhBXVhmNKzB-klROweFQzXI="); */
+    /* background-image: url("https://t4.ftcdn.net/jpg/01/78/65/59/360_F_178655953_rWWddCTgayEcmPpfxGU4Xlx9EJ08e7kL.jpg"); */
+    /* background-image: url("https://media.istockphoto.com/id/939261494/photo/close-up-portrait-of-young-successful-brunete-stock-market-broker-guy-on-the-pure-light-blue.jpg?s=612x612&w=0&k=20&c=U_7v3eN_hhHSoQabgHJ-bZ_ckelL3ayndNaQiLN0cs8="); */
+    background-image: url("https://media.istockphoto.com/id/1428593778/photo/bearded-man-with-toothy-smile-on-face-pointing-fingers-on-himself-confident-positive.jpg?s=612x612&w=0&k=20&c=AHQvIz9EUfDB95cMD8Q1_indGm5Gak3rNxbW9ZrkQkM=");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main_box_L h1{
+    font-size: 2.7rem;
+    letter-spacing: 1px;
+}
+.main_box_L p{
+    font-size: 0.6rem;
+    color: grey;
+    margin-top: 20px;
+    line-height: 20px;
+}
+.button_box{
+    border: 1px solid red;
+    margin-top: 20px;
+}
+.btn1{
+    padding: 12px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    width: 29%;
+}
+.btn2{
+    border: 1px solid orangered;
+    color: black;
+    background-color: white;
+    width: 29%;
+    padding: 12px;
+    margin-left: 10px;
+}
+.icon_content_box{
+    border: 1px solid blue;
+    /* padding: 30px; */
+    margin-top: 20px;
+    display: flex;
+}
+.icon_content_box_L{
+    width: 15%;
+    border: 1px solid black;
+    padding: 30px;
+}
+.icon_content_box_M{
+    width: 50%;
+    border: 1px solid black;
+    padding: 30px;
+}
+.icon_content_box_R{
+    width: 35%;
+    border: 1px solid black;
+    padding: 30px;
+}
