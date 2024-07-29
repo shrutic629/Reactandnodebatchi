@@ -14,7 +14,6 @@ body{
 }
 .outer_box{
     width: 70%;
-    /* border: 1px solid red; */
     padding: 0px 50px;
     padding-top: 50px;
     background-image: url("https://st4.depositphotos.com/12985656/21212/i/450/depositphotos_212121578-stock-illustration-full-frame-blank-blue-background.jpg");
@@ -24,33 +23,29 @@ body{
     border-radius: 10px;
 }
 .inner_box{
-    /* border: 1px solid black; */
     padding: 0px 10px;
     padding-top: 10px;
     background-color: white;
     height: 100vh;
 }
 .inner_box_top{
-    height: 80%;
-    border: 1px solid rgb(249, 239, 239);
+    height: 75%;
     background-color: rgb(248, 244, 244);
     display: flex;
     flex-direction: column;
 }
 .inner_box_bot{
-    height: 20%;
-    border: 1px solid blue; 
+    height: 21%;
+    margin-top: 3%;
+    display: flex;
 }
 .heading_box{
-    border: 1px solid green;
-    /* padding: 3.5%; */
     display: flex;
     justify-content: space-evenly;
     padding: 10px 0px;
 }
 .harry{
     width: 18%;
-    /* border: 1px solid black; */
     font-weight: 700;
     letter-spacing: 1px;
     font-size: 1.2rem;
@@ -58,17 +53,13 @@ body{
 }
 .options{
     width: 40%;
-    /* border: 1px solid black; */
     padding-top: 15px;
-    /* padding: 30px; */
 }
 .contact_me{
     width: 12%;
-    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 30px; */
 }
 .dot{
     height: 5px;
@@ -93,28 +84,19 @@ body{
     font-weight: 500;
 }
 .main_box{
-    border: 1px solid blue;
-    /* padding: 50px; */
     width: 84%;
     margin-left: 7%;
     margin-top: 4%;
     display: flex;
 }
 .main_box_L{
-    border: 1px solid red;
-    /* padding: 50px; */
     width: 50%;
     height: 60vh;
     
 }
 .main_box_R{
-    border: 1px solid green;
     padding: 50px;
     width: 50%;
-    /* background-image: url("https://media.istockphoto.com/id/1022259700/photo/horizontal-photo-of-young-positive-european-man-in-casual-beige-t-shirt-isolated-on-pink.jpg?s=612x612&w=0&k=20&c=CjSUDOaPcjEzx6JYwDUeGitURD8FDwcSHEWz1Wh7MGo="); */
-    /* background-image: url("https://media.istockphoto.com/id/1312386384/photo/confident-guy-pointing-at-himself.jpg?s=612x612&w=0&k=20&c=A2orP3a4KQYSMW1AlWQoMhBXVhmNKzB-klROweFQzXI="); */
-    /* background-image: url("https://t4.ftcdn.net/jpg/01/78/65/59/360_F_178655953_rWWddCTgayEcmPpfxGU4Xlx9EJ08e7kL.jpg"); */
-    /* background-image: url("https://media.istockphoto.com/id/939261494/photo/close-up-portrait-of-young-successful-brunete-stock-market-broker-guy-on-the-pure-light-blue.jpg?s=612x612&w=0&k=20&c=U_7v3eN_hhHSoQabgHJ-bZ_ckelL3ayndNaQiLN0cs8="); */
     background-image: url("https://media.istockphoto.com/id/1428593778/photo/bearded-man-with-toothy-smile-on-face-pointing-fingers-on-himself-confident-positive.jpg?s=612x612&w=0&k=20&c=AHQvIz9EUfDB95cMD8Q1_indGm5Gak3rNxbW9ZrkQkM=");
     background-position: center;
     background-size: cover;
@@ -131,7 +113,6 @@ body{
     line-height: 20px;
 }
 .button_box{
-    border: 1px solid red;
     margin-top: 20px;
 }
 .btn1{
@@ -150,23 +131,87 @@ body{
     margin-left: 10px;
 }
 .icon_content_box{
-    border: 1px solid blue;
-    /* padding: 30px; */
     margin-top: 20px;
     display: flex;
 }
 .icon_content_box_L{
     width: 15%;
-    border: 1px solid black;
-    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .icon_content_box_M{
     width: 50%;
-    border: 1px solid black;
-    padding: 30px;
+    font-size: 0.6rem;
+    color: grey;
+    line-height: 20px;
 }
 .icon_content_box_R{
     width: 35%;
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon_content_box_R img{
+    height: 100%;
+    width: 100%;
+}
+.icon_content_box_R i{
+    color: orangered;
+}
+.icon_content_box_L i{
+    color: orangered;
+}
+.brands{
+    margin-top: 20px;
+    display: flex;
+}
+.brand1{
     padding: 30px;
+    width: 25%;
+}
+.brand1 img{
+    height: 70%;
+    width: 180%;
+}
+.inner_box_bot1{
+    width: 25%;
+}
+.inner_box_bot2{
+    width: 25%;
+}
+.icon_top{
+    width: 40px;
+    height: 6vh;
+}
+.content_bot{
+    color: rgb(64, 63, 63);
+}
+.icon_top img{
+    height: 100%;
+    width: 100%;
+}
+.content_bot h5{
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding: 5% 0%;
+}
+.content_bot h6{
+    font-size: 0.5rem;
+    font-weight: 400;
+    color: grey;
+    line-height: 15px;
+}
+.experience{
+    width: 70%;
+    padding: 9px;
+    margin-left: 20%;
+    margin-top: 9%;
+    background-color: rgb(106, 0, 255);
+    color: white;
+    font-size: 0.65rem;
+}
+.experience span{
+    font-size: 2.5rem;
+    font-weight: 600;
 }
