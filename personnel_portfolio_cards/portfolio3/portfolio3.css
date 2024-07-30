@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer_box{
+    padding: 0px 50px;
+    padding-top: 50px;
+    width: 75%;
+    background-image: url("https://media.gettyimages.com/id/1280649926/video/abstract-soft-shiny-background-business-motion-graphics-abstract-simple-beatiful-motion.jpg?s=640x640&k=20&c=JvWt3KjeQlt5jD_Q-PZeBdcRJORHtgLKSM-RfPtaYpM=");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.inner_box{
+    background-color: white;
+    height: 100vh;
+}
+.inner_box_top{
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+.inner_box_bot{
+    height: 20%;
+    width: 100%;
+    background-color: rgb(213, 213, 214);
+    display: flex;
+}
+/* top */
+.inner_box_top_L{
+    width: 53%;
+    height: 100%;
+    margin-left: 5%;
+}
+.inner_box_top_R{
+    width: 47%;
+    height: 100%;
+    margin-right: 5%;
+}
+.heading{
+    display: flex;
+}
+.heading_L{
+    padding: 30px;
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+.heading_R{
+    width: 50%;
+}
+.heading_R ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15%;
+}
+.heading_R ul li{
+    list-style: none;
+    color: grey;
+    font-size: 0.6rem;
+    
+}
+.make_your_look{
+    width: 100%;
+}
+.make_your_look h5{
+    color: red;
+    font-weight: 400;
+    font-size: 0.6rem;
+    letter-spacing: 1px;
+    padding-top: 2%;
+}
+.make_your_look h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    padding-top: 2%;
+}
+.make_your_look h6{
+    font-size: 0.5rem;
+    padding: 2% 0%;
+}
+.shop_colle_img{
+    display: flex;
+}
+.shop_colle_img_L{
+    width: 60%;
+    height: 32vh;
+}
+.shop_colle_img_R{
+    width: 40%;
+    height: 31vh;
+    background-image: url("https://st2.depositphotos.com/1001094/11918/i/950/depositphotos_119180640-stock-photo-elegant-handsome-man-in-white.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.shop_colle_img_L_top{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop_colle_img_L_bot{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop_colle_img_L_top button{
+    background-color: black;
+    color: white;
+    padding: 4%;
+    border: none;
+    width: 45%;
+}
+.shop_colle_img_L_bot img{
+    height:90%;
+    width: 50%;
+}
+.inner_box_top_R_upper{
+    height: 30%;
+    background-color: rgb(238, 233, 233);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8%;
+}
+.inner_box_top_R_mid{
+    height: 50%;
+    border: 1px solid rgb(244, 240, 240);
+    background-image: url("https://st3.depositphotos.com/1001094/34033/i/450/depositphotos_340332316-stock-photo-young-elegant-handsome-man-posing.jpg");
+    background-position:top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.inner_box_top_R_lower{
+    height: 20%;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner_box_top_R_upper h6{
+    font-size: 0.6rem;
+    color: grey;
+}
+.inner_box_top_R_upper input{
+    border: 1px solid rgb(205, 201, 201);
+    height: 20%;
+    color: black;
+}
+.heart{
+    padding: 7%;
+    width: 20%;
+    background-color: white;
+    margin-top: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heart i{
+    color: red;
+    font-size: 1.5rem;
+}
+
+/* bottom */
+.inner_box_bot_L{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner_box_bot_M{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner_box_bot_R{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon_box{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    width: 25%;
+    font-size: 1.2rem;
+    color: rgb(46, 78, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner_box_bot_M h5{
+    margin-top: 2%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+}
+.inner_box_bot_M h6{
+    color: grey;
+}
+.image_div{
+    width: 55%;
+    padding: 40px;
+    border-radius: 40%;
+    background-image: url("https://st4.depositphotos.com/1049680/26391/i/450/depositphotos_263912490-stock-photo-handsome-man-reading-book-home.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
