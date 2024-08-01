@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer_box{
+    width: 75%;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgb(237, 234, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0%;
+}
+.inner_box{
+    width: 80%;
+    padding: 50px;
+    background-color: rgb(135, 179, 163);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 50%;
+    padding: 35px;
+    border-radius: 10px;
+    background-color: white;
+}
+.card_inner_box_top{
+    border-bottom: 2px solid rgb(229, 227, 227);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+.image_box{
+    height: 22vh;
+    width: 50%;
+    border-radius: 50%;
+}
+.intro_box{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 5% 0%;
+}
+.image_box img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.bot_box1{
+    padding: 3% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(78, 95, 78);
+}
+.content{
+    font-size: 0.9rem;
+    font-size: 0.8rem;
+    margin-left: 5%;
+}

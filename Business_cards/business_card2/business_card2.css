@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background_box{
+    background-color: rgb(217, 63, 89);
+    padding: 0px 50px;
+    padding-top: 7%;
+    width: 70%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_box{
+    border: 2px solid black;
+    width: 45%;
+    height: 90vh;
+    border-radius: 15px 15px 0px 0px;
+    background-color: white;
+}
+.card_inner_box{
+    border: 1px solid blue;
+    height: 94%;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.header{
+    height: 9%;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.header_L{
+    width: 25%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_R{
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    align-items: center;
+}
+.header_L_L{
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header_L_R{
+    padding-left: 15%;
+}
+.backg_box{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid black; */
+    margin-top: 3%;
+    border-radius: 15px;
+}
+.backg_box img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+.image_box{
+    height:140px;
+    width: 140px;
+    border: 5px solid rgb(226, 223, 223);
+    background-color: white;
+    /* margin-top: 5%; */
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 110px;
+    padding: 2%;
+}
+.image_box img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.introduction{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 2%;
+    padding-left: 5%;
+}
+.card_inner_box h2{
+    margin-top: 22%;
+    font-size: 1.3rem;
+}
+.card_inner_box h2 i{
+    color: rgb(108, 127, 202);
+}
+
+.card_inner_box p{
+    font-size: 0.8rem;
+    margin-top: 2%;
+    line-height: 20px;
+}
+.count_box{
+    border: 1px solid blue;
+    padding: 4%;
+    width: 100%;
+    display: flex;
+}
+.rating{
+    width: 37%;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.followers{
+    width: 26%;
+    border: 1px solid green;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.posts{
+    width: 38%;
+    border: 1px solid green;
+    /* padding: 30px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rating h3{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: rgb(20, 167, 20);
+}
+.rating h5{
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: rgb(71, 70, 70);
+    padding-top: 2%;
+}
+.followers h3{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+.followers h5{
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: rgb(71, 70, 70);
+    padding-top: 2%;
+}
+.posts h3{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+.posts h5{
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: rgb(71, 70, 70);
+    padding-top: 2%;
+}
+.subscribe_btn{
+    border: 1px solid black;
+    /* padding: 7%; */
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(217, 63, 89);
+    display: flex;
+}
+.plus{
+    width: 15%;
+    border: 1px solid black;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.subscribe{
+    width: 85%;
+    border: 1px solid black;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon_des_box{
+    border: 1px solid orange;
+    /* padding: 50px; */
+    width: 100%;
+}
+.icon_des_box_single{
+    border: 1px solid red;
+    padding:18px;
+    width: 100%;
+}
+.icon{
+
+}
+.descriptn{
+
+}
+
