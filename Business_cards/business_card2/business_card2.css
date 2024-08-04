@@ -194,6 +194,7 @@ body{
 }
 .icon_des_box{
     width: 100%;
+    border: 1px solid red;
 }
 .icon_des_box_single{
     width: 100%;
